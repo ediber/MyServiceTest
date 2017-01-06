@@ -16,7 +16,7 @@ public class MyIntentService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        while (true){
+            for(int i=0; i< 10; i++){
             int num = intent.getIntExtra("number", -1);
             Log.d("MyIntentService", num + "");
             try {
