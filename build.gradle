@@ -2,7 +2,7 @@
 
 buildscript {
     repositories {
-        jcenter()
+        jcen ter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.2'

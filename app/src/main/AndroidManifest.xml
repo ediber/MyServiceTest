@@ -14,7 +14,7 @@
             android:label="An Example On-demand service">
             <intent-filter>
                 <action android:name="edi.com.myservicetest.action.DO_WORK" />
-            </intent-filter>
+            </intent-filter>  
         </service>
 
         <activity android:name=".MainActivity">
